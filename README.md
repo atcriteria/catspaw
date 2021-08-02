@@ -1,4 +1,4 @@
-#The Catz Paw
+# The Catz Paw
 
 A very simple application that calls two different API's
 - https://catfact.ninja/
