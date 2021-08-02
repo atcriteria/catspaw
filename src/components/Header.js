@@ -1,7 +1,9 @@
 export default function Header(){
     return(
-        <header>
-            The Catz-Paw
-        </header>
+        <div className="header-wrapper">
+            <header>
+                The Catz-Paw
+            </header>
+        </div>
     )
 }

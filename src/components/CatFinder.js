@@ -32,9 +32,11 @@ export default function CatFinger(){
     }, [])
     
     return(
-        <div className="cat-finder">
-            <img id="cat-photo" src={imgURL} alt="Cat photograph from the Cats As A Service API" />
-            <p>{fact}</p>
+        <div className="cat-finder-wrapper">
+            <div className="cat-finder">
+                <img id="cat-photo" src={imgURL} alt="Cat photograph from the Cats As A Service API" />
+                <p>{fact}</p>
+            </div>
         </div>
     )
 }
